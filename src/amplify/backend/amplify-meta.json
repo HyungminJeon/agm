@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-agm-dev-161209-authRole",
+      "UnauthRoleArn": "arn:aws:iam::124570953761:role/amplify-agm-dev-161209-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::124570953761:role/amplify-agm-dev-161209-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-agm-dev-161209-deployment",
+      "UnauthRoleName": "amplify-agm-dev-161209-unauthRole",
+      "StackName": "amplify-agm-dev-161209",
+      "StackId": "arn:aws:cloudformation:us-west-2:124570953761:stack/amplify-agm-dev-161209/e990e610-9c44-11ed-b3e3-060936b6500f",
+      "AmplifyAppId": "d1mah7pqpfqplj"
+    }
+  },
+  "auth": {
+    "agmb522927c": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-agm-dev-161209-deployment/amplify-cfn-templates/auth/agmb522927c-cloudformation-template.json",
+        "logicalId": "authagmb522927c"
+      },
+      "lastPushTimeStamp": "2023-01-25T00:27:31.312Z",
+      "output": {
+        "UserPoolId": "us-west-2_MtW2ZnyiK",
+        "AppClientIDWeb": "1lpatruojed1q8vnmad7vp9k7r",
+        "AppClientID": "7m4i28gbq69o3ahqnmbke2ret1",
+        "IdentityPoolId": "us-west-2:51f0391f-d211-454c-89a1-a70d3d41472c",
+        "UserPoolArn": "arn:aws:cognito-idp:us-west-2:124570953761:userpool/us-west-2_MtW2ZnyiK",
+        "IdentityPoolName": "agmb522927c_identitypool_b522927c__dev",
+        "UserPoolName": "agmb522927c_userpool_b522927c"
+      },
+      "lastPushDirHash": "5I7P1p5GclXbXn22l8w5AZgQALA="
+    }
+  }
+}

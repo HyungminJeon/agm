@@ -1,0 +1,22 @@
+/* .red {
+  background-color: #e63838;
+} */
+.button.red {
+  background-color: #da3344;
+}
+.button{
+  background-color: #5433da;
+}
+
+.button:hover.red {
+  background-color: #da3344;
+  color: white;
+}
+.button.hover{
+  background-color: #5433da;
+  color: white;
+}
+
+input {
+  border: 1px solid black;
+}
