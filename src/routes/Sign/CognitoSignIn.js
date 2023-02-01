@@ -6,7 +6,7 @@ import AccountContext from "./Account";
 
 
 
-const CognitoSignIn = () => {
+const CognitoSignIn = () =>  {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
