@@ -13,7 +13,7 @@ export const Account = (props) => {
             user.getSession((err, session) => {
                 if (err) {
                     reject();
-                } else {
+                } else { 
                     resolve(session);
                 }
             });
